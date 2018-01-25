@@ -21,11 +21,11 @@ app.use((req,res,next) =>{
   next();
 });
 
-app.use((req,res,next) =>{
-  res.render('maintanence.hbs',{
-    pageTitle:'Maintanence Site'
-  });
-});
+// app.use((req,res,next) =>{
+//   res.render('maintanence.hbs',{
+//     pageTitle:'Maintanence Site'
+//   });
+// });
 
 
 app.use(express.static(__dirname + '/public'));
